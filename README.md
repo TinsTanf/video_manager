@@ -15,3 +15,7 @@
     - Hàm handleUpload để xử lý sự kiện tải video lên có trạng thái và thông báo
     - Sử dụng layout.sider, menu, submenu,... từ thư viện antd
     - VideoCameraOutlined là icon xem video, UploadOutlined tải video lên
+5. App.js
+    - React router để điều hướng trang, Antd để xây dựng các thành phần của giao diện như button, row, col,...
+    - selectedVideo và isModalOpen để mở modal lên và chạy video đó
+    - Dùng span để chia giao diện thành các khu vực khác nhau cho hợp lý
