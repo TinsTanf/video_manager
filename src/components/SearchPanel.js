@@ -27,7 +27,6 @@ const SearchPanel = () => {
                 Tải ảnh lên
               </Button>
             </Upload>
-
             <Button type="primary" icon={<SearchOutlined />} style={{ fontWeight: "bold" }} disabled={!searchKeyword}>
               Tìm kiếm
             </Button>

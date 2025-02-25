@@ -26,13 +26,13 @@ const Sidebar = () => {
     }, 100);
   };
 
-  // const handleUpload = (info) => {
-  //   if (info.file.status === "done") {
-  //     message.success(`${info.file.name} đã được tải lên thành công!`);
-  //   } else if (info.file.status === "error") {
-  //     message.error(`${info.file.name} tải lên thất bại.`);
-  //   }
-  // };
+  const handleUpload = (info) => {
+    if (info.file.status === "done") {
+      message.success(`${info.file.name} đã được tải lên thành công!`);
+    } else if (info.file.status === "error") {
+      message.error(`${info.file.name} tải lên thất bại.`);
+    }
+  };
 
   return (
     <>
