@@ -1,3 +1,4 @@
+Link youtube: https://www.youtube.com/watch?v=kJ3a8tBUd4s
 1. FrameResult
     - Sử dụng image và card từ thư viện antd để hiển thị ảnh.
     - Dùng mảng 4 phần tử để tạo ra 4 ảnh ngẫu nhiên có kích thước cố định.
